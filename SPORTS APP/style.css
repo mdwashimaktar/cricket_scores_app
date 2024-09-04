@@ -1,0 +1,101 @@
+:root{
+    --body-color:#efefef;
+    --nav-color:#1876f2;
+    --bg-color:#fff;
+    --text-color:black;
+    --show-col:#3b74b2;
+}
+.darktheme{
+    --body-color:#050015bb;
+    --nav-color:#000;
+    --bg-color:#000;
+    --text-color:rgb(248, 239, 239);
+    --show-col:#aebc12;
+}
+body {
+    background-color:var(--body-color);
+    transition: background 0.3s;
+    box-sizing: border-box;
+}
+.heading1{
+    color: var(--text-color);
+}
+.to-dark{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+.container{
+    color: var(--show-col);
+    font-family: 'Tilt Neon', cursive;
+}
+.cards{
+  width: 25vw;
+  height: 27vh;
+  border: 1px solid;
+  box-shadow: 4px 8px var(--show-col);
+  color: var(--text-color);
+
+}
+.title{
+    font-family: 'Tilt Neon', cursive;
+    height: 5vh;
+    font-weight:1000;
+}
+.team1{
+    font-family: 'Tillana', cursive;
+height: 8vh;
+display: flex;
+font-weight: 800;
+
+}
+
+.team1pic{
+    width: 8vw;
+    
+    
+}
+.team1info{
+    width: 17vw;
+   height: 9vh;
+}
+.team2{
+    font-family: 'Tillana', cursive;
+    height: 7vh;
+    display: flex;
+    font-weight: 700;
+}
+.team2pic{
+    width: 8vw;
+}
+.team2info{
+    width: 17vw;
+    height: 5vh;
+    color: var(--show-col);
+    font-weight: 700;
+    text-align: right;
+}
+.footer{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+height: 7vh;
+
+}
+.box{
+    width: 22vw;
+    height: 15vh;
+    border: 1px solid;
+    box-shadow: 4px 8px var(--show-col);
+    color: var(--text-color);
+
+}
+.heading{
+    height: 5vh;
+}
+.date{
+    height: 3vh;
+}
+.matches{
+
+height: 7vh;
+}
+  
